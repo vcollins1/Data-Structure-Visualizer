@@ -1,0 +1,16 @@
+###
+GET http://localhost:5299/list
+
+###
+GET http://localhost:5299/list/0
+
+###
+POST http://localhost:5299/list
+Content-Type: application/json
+
+{
+  "Data": 147
+}
+
+###
+DELETE http://localhost:5299/list
