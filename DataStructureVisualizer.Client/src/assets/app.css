@@ -1,0 +1,39 @@
+:root {
+    --canvas-bg: #f8fafc;
+    --canvas-border: #dbe3ef;
+    --white: #FFF;
+    --blue: #0C50DE;
+    --blue-gray: #64748B;
+    --red: #C71B1B;
+    --light-red: #FFE8E8;
+    --light-grey: #DBE0E8;
+}
+
+*,
+*::before, 
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.main {
+    width: 80%;
+    margin-inline: auto;
+}
+
+.title {
+    font-size: clamp(.5rem, 5vw, 2rem);
+    margin-bottom: 15px;
+}
+
+@media screen and (min-width: 650px) {
+    .canvas-group {
+        display: flex;
+        gap: 1.5rem;
+        align-items: start;
+    }
+}

@@ -1,0 +1,29 @@
+.list-canvas {
+    display: flex;
+    align-items: start;
+    background: var(--canvas-bg);
+    border: 1px solid var(--canvas-border);
+    border-radius: 8px;
+    padding: 20px;
+    min-height: 400px;
+    width: 100%;
+}
+
+.list-canvas__row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+}
+
+.null-pointer,
+.list-head {
+    font-size: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--light-grey);
+    border: 1px solid var(--blue);
+    border-radius: 8px;
+    color: var(--blue-gray);
+    padding: 5px;
+    align-self: center;
+}
