@@ -1,0 +1,58 @@
+.controls {
+    padding: 20px;
+    border: 1px solid #DBE0E8;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 650px) {
+    .controls {
+        width: 300px;
+        order: 2;
+    }
+}
+
+.controls__form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width:100%;
+}
+
+.controls__data,
+.controls__addBtn,
+.controls__deleteBtn {
+    border-radius: 8px;
+    padding: 14px;
+    text-align: left;
+    font-size: 1rem;
+}
+
+.controls__data-label span {
+    display: block;
+    margin: 10px 0;
+    color: #627080;
+}
+
+.controls__data {
+    background-color: #FBFCFD;
+    border: 1px solid #DBE0E8;
+    width: 100%;
+}
+
+.controls__addBtn {
+    background-color: var(--blue);
+    color: var(--white);
+    border: none;
+}
+
+.controls__deleteBtn {
+    color: var(--red);
+    background-color: var(--light-red);
+    border: 1px solid var(--red);
+}
+
+.controls__deleteBtn:hover,
+.controls__addBtn:hover {
+    cursor: pointer;
+}
